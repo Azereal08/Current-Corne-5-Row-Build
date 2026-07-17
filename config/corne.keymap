@@ -255,10 +255,10 @@
 
         FPS_7 {
             bindings = <
-  &kp Q           &none   &kp W   &kp E              &kp R        &trans  &trans  &trans  &trans  &trans
-  &kp LEFT_SHIFT  &kp A   &kp S   &kp D              &kp F        &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL       &kp N1  &kp N2  &kp N3             &kp N4       &trans  &trans  &trans  &trans  &trans
-                          &trans  &ht_layerhome 1 0  &kp SPACE    &trans  &trans  &trans
+  &kp Q           &none   &kp W   &kp E   &kp R        &kp N7  &kp N8  &kp N9  &trans  &trans
+  &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F        &kp N4  &kp N5  &kp N6  &trans  &trans
+  &kp LCTRL       &kp N1  &kp N2  &kp N3  &kp N4       &kp N1  &kp N2  &kp N3  &trans  &trans
+                          &trans  &trans  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "FPS_7";
