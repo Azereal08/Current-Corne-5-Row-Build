@@ -145,12 +145,12 @@
         };
 
         ScrollUp {
-            bindings = <&kp UP_ARROW>;
+            bindings = <&mkp MB5>;
             key-positions = <2 13>;
         };
 
         ScrollDown {
-            bindings = <&kp DOWN>;
+            bindings = <&Ctrl_LeftMouseClick>;
             key-positions = <13 22>;
         };
 
@@ -172,6 +172,22 @@
         Layer_0 {
             bindings = <&none>;
             key-positions = <31 30>;
+        };
+    };
+
+    macros {
+        Ctrl_LeftMouseClick: Ctrl_LeftMouseClick {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&mkp LCLK>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "CTRL_LEFTMOUSECLICK";
         };
     };
 
