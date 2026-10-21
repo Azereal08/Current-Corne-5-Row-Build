@@ -79,6 +79,7 @@
             bindings = <&tog 1>;
             key-positions = <31 21>;
             timeout-ms = <50>;
+            layers = <0 1 2 4 3 8 9>;
         };
 
         Layer2 {
@@ -132,6 +133,7 @@
         LeftClick {
             bindings = <&mkp LCLK>;
             key-positions = <13 12>;
+            layers = <0>;
         };
 
         RightClick {
@@ -144,12 +146,12 @@
             key-positions = <11 13>;
         };
 
-        ScrollUp {
+        Scroll_MB5 {
             bindings = <&mkp MB5>;
             key-positions = <2 13>;
         };
 
-        ScrollDown {
+        Ctril_RClick {
             bindings = <&Ctrl_LeftMouseClick>;
             key-positions = <13 22>;
         };
@@ -167,10 +169,11 @@
         TabCombo {
             bindings = <&kp TAB>;
             key-positions = <13 32>;
+            layers = <1>;
         };
 
         Layer_0 {
-            bindings = <&none>;
+            bindings = <&to 0>;
             key-positions = <31 30>;
         };
     };
