@@ -162,7 +162,7 @@
             layers = <0>;
         };
 
-        Ctril_RClick {
+        Ctril_LClick {
             bindings = <&Ctrl_LeftMouseClick>;
             key-positions = <13 22>;
             layers = <0>;
