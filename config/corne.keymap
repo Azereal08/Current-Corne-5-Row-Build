@@ -86,48 +86,56 @@
             bindings = <&tog 2>;
             key-positions = <31 22>;
             timeout-ms = <50>;
+            layers = <0 1 2 4 3 8 9>;
         };
 
         Layer3 {
             bindings = <&tog 3>;
             key-positions = <31 23>;
             timeout-ms = <50>;
+            layers = <0 1 2 4 3 8 9>;
         };
 
         Layer4 {
             bindings = <&tog 4>;
             key-positions = <31 11>;
             timeout-ms = <50>;
+            layers = <0 1 2 4 3 8 9>;
         };
 
         Layer5 {
             bindings = <&tog 5>;
             key-positions = <31 12>;
             timeout-ms = <50>;
+            layers = <0 1 2 4 3 8 9>;
         };
 
         Layer6 {
             bindings = <&tog 6>;
             key-positions = <31 13>;
             timeout-ms = <50>;
+            layers = <0 1 2 4 3 8 9>;
         };
 
         Layer7 {
             bindings = <&tog 7>;
             key-positions = <31 1>;
             timeout-ms = <50>;
+            layers = <0 1 2 4 3 8 9>;
         };
 
         Layer8 {
             bindings = <&tog 8>;
             key-positions = <31 2>;
             timeout-ms = <50>;
+            layers = <0 1 2 4 3 8 9>;
         };
 
         Layer9 {
             bindings = <&tog 9>;
             key-positions = <31 3>;
             timeout-ms = <50>;
+            layers = <0 1 2 4 3 8 9>;
         };
 
         LeftClick {
@@ -139,26 +147,31 @@
         RightClick {
             bindings = <&mkp RCLK>;
             key-positions = <11 12>;
+            layers = <0>;
         };
 
         MiddleClick {
             bindings = <&mkp MCLK>;
             key-positions = <11 13>;
+            layers = <0>;
         };
 
         Scroll_MB5 {
             bindings = <&mkp MB5>;
             key-positions = <2 13>;
+            layers = <0>;
         };
 
         Ctril_RClick {
             bindings = <&Ctrl_LeftMouseClick>;
             key-positions = <13 22>;
+            layers = <0>;
         };
 
         CapsLck {
             bindings = <&kp CAPSLOCK>;
             key-positions = <16 13>;
+            layers = <0>;
         };
 
         AltTab {
