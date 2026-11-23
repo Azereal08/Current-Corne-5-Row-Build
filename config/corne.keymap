@@ -179,6 +179,13 @@
             key-positions = <11 12 13>;
         };
 
+        VoiceDictation {
+            bindings = <&kp LC(LS(F20))>;
+            key-positions = <1 2 3>;
+            timeout-ms = <50>;
+            layers = <0>;
+        };
+
         TabCombo {
             bindings = <&kp TAB>;
             key-positions = <13 32>;
